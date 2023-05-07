@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;}
+
+header {
+  max-width: 1440px;
+  padding: 30px 73px;
+  margin: auto;
+
+}
+header .container .menu li a{
+  display: flex;
+}
+header .container .menu li:nth-child(2) ul a{
+  display: block;
+}
+.collapse .navbar-collapse{
+  max-width: 1014px;
+
+
+}
+.collapse .navbar-collapse .navbar-nav{
+  text-align: center;
+}
+.collapse .navbar-collapse a{
+  margin-left: 17px;
+}
+
+.menu.active {
+  transform: translateX(0);
+  text-align: center;
+  z-index: 2;
+}
+.container nav li a{
+  display: flex;
+  margin-right: 33px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height, or 120% */
+
+  text-transform: uppercase;
+  color: #000000;
+}
+.container .search li{
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-left: 27px;
+
+}
+
+
+
+header .container{
+  max-width: 1440px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .owl-carousel{
+  margin-bottom: 28px;
+}
+
+.container .mobile{
+  height: 550px;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-top: 145px;
+  padding-left: 56px;
+
+  background: #DCE5E2;
+  border-radius: 32px;
+}
+.container .mobile a{
+  border: 1px solid #000000;
+  border-radius: 32px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 120% */
+
+  text-transform: capitalize;
+  color: #000000;
+  background: #DCE5E2;
+  text-decoration: none;
+  padding:14px 53px;
+  display: inline-flex;
+
+
+}
+.container .mobile h1{
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 70px;
+  /* or 120% */
+  color: #000000;
+  width: 588px;
+  padding-bottom: 19px;
+}
+.container .mobile p{
+  width: 565px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* or 120% */
+  color: #000000;
+  padding-bottom: 30px;
+
+}
+.container .mobile img{
+  position: absolute;
+  right: -40px;
+  top: 0;
+  width: 647px;
+  height: 550px;
+
+
+}
+
+.logo{
+  align-items: center;
+}
+.owl-stage-outer {
+  width: 1110px;
+}
+
+//.owl-dots {
+//  text-align: center;
+
+//  .owl-dot span {
+//    width: 100px;
+//    height: 1px;
+//    display: inline-block;
+//    background-color: darkviolet;
+//   position: absolute;
+//    top: -20px;
+//    margin: 5px;
+//
+//  }
+//
+//  .owl-dot.active span {
+//    background-color: indigo;
+//  }
+//}
+//.owl-stage{
+//  display: flex;
+//  align-items: center;
+//}
+.owl-nav .owl-prev{
+  position: absolute;
+  background-image: url("../images/left.svg") !important;
+  width: 14px;
+  height: 26px;
+  color: black;
+  top: 200px;
+  left: 20px;
+
+
+}
+.owl-nav .owl-next{
+  position: absolute;
+  background-image: url("../images/right.svg") !important;
+  width: 14px;
+  height: 26px;
+  color: black;
+  top: 200px;
+  right: 20px;
+
+
+}
+.offers{
+  max-width: 1350px;
+  padding: 47px 0 6px;
+  margin: auto;
+
+}
+.offers h3{
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  color: #000000;
+  margin-bottom: 9px;
+}
+.offers p{
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* or 120% */
+  text-align: center;
+  color: #000000;
+  margin-bottom: 55px;
+}
+
+.save{
+  max-width: 1350px;
+  padding: 47px 55px 28px;
+ margin: auto;
+
+}
+.save h3{
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 52px;
+  /* identical to box height, or 125% */
+
+  text-align: center;
+  color: #000000;
+}
+.save p{
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height, or 129% */
+  color: #000000;
+  text-align: center;
+
+}
+.save .card{
+  width: 303px;
+  height: 396px;
+}
+.save .card .card-title{
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 125% */
+
+  color: #000000;
+  margin-bottom: 9px;
+}
+
+.save .card .card-text{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  /* or 120% */
+  color: #4B4B4B;
+  text-align: left;
+
+
+}
+.save .card .card-price{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height, or 120% */
+    color: #000000;
+  text-align: left;
+  justify-content: flex-end;
+  }
+footer .container{
+  padding: 44px 0;
+}
+footer .container p{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 18px;
+  /* or 120% */
+
+  color: #000000;
+}
+footer .container .col-2 ul{
+  text-decoration: none;
+  list-style: none;
+}
+footer .container .col-2 ul li{
+  font-family: 'Readex Pro', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  /* identical to box height, or 125% */
+
+
+  color: #000000;
+
+}
+footer .container .col-2 ul li a{
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 120% */
+
+
+  color: #000000;
+
+}
+
